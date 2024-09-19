@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+}
+
+*,*::after,*::before {
+  box-sizing: inherit;
+}
+
+#ping-pong-table {
+  border: 2px solid black;
+  width: 700px;
+  height: 400px;
+  position: relative;
+}
+
+#paddle {
+  background-color: aqua;
+  width: 10px;
+  height: 75px;
+  margin-left: 3px;
+  margin-top: 3px;
+  position: absolute;
+}
+
+#ball {
+  background-color: brown;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+}
